@@ -6,7 +6,35 @@
 
 .content {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1280px;
     padding: 16px;
     margin: auto;
+}
+
+
+.gnb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        width: 178px;
+    }
+
+    .nav-list {
+        display: flex;
+
+        li {
+            margin: 0 60px;
+
+            & :first {
+                margin-right: 60px
+            }
+
+            & :last-child {
+                margin-left: 60px
+            }
+        }
+        
+    }
 }
