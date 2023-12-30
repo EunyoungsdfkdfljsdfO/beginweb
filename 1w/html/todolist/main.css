@@ -1,0 +1,15 @@
+body {
+    
+}
+
+#tasklist{ /* id 접근 */
+    background-color:beige;
+}
+
+.task { /* class로 접근 */
+    font-style:italic;
+}
+
+.special { /* class로 접근 */
+    font-size: 30px;
+}
