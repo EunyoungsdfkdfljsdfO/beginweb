@@ -26,6 +26,7 @@
 
         li {
             margin: 0 60px;
+            text-transform: uppercase;
 
             & :first {
                 margin-right: 60px
@@ -33,6 +34,11 @@
 
             & :last-child {
                 margin-left: 60px
+            }
+
+            &.active {
+                text-decoration: underline;
+                font-weight: 700;
             }
         }
         
