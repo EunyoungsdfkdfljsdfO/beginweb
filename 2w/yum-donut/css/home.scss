@@ -2,6 +2,28 @@
 
 .header {
     background-color: #F1CE44;
+
+    .header-illustration {
+        display: flex;
+        width: 100%;
+
+        .left-illustration {
+            width: 300px;
+            // transform: translate(-200px, 30px);
+        }
+    
+        .slogan {
+            margin: auto;
+            width: 200px;
+        }        
+    
+        .right-man-illustration {
+            align-self: baseline;
+            transform: translate(100px, 100px);
+            width: 300px;
+            height: 248px;
+        }
+    }
 }
 
 .content {
@@ -41,6 +63,5 @@
                 font-weight: 700;
             }
         }
-        
     }
 }
