@@ -12,6 +12,7 @@
 
         .left-illustration {
             width: 643px;
+            z-index: 1;
         }
 
         .slogan {
@@ -32,6 +33,7 @@
             .man-illustration {
                 width: 653px;
                 height: 541px;
+                z-index: 1;
             }
         }
     }
@@ -77,5 +79,76 @@
                 font-weight: 700;
             }
         }
+    }
+}
+
+.product-section {
+    background-color: #F5f5f5;
+    position: relative;
+
+    .bg-top {
+        height: 566px;
+        background-image: url("public/img/product_section_background_top.png");
+        background-color: #F1CE44;
+        background-repeat: repeat-x;
+        background-position: center;
+        transform: translatey(-100px);
+    }
+
+    .bg-bottom {
+        height: 566px;
+        background-image: url("public/img/product_section_background_bottom.png");
+        background-color: #F2789D;
+        background-repeat: repeat-x;
+        background-position: center;
+    }
+
+    .left-yummy {
+        position: absolute;
+        top: 120px;
+        left: -180px;
+        font-size: 312px;
+        font-weight: bolder;
+        letter-spacing: -30px;
+        color: rgba(255, 255, 255, 0.6);
+        text-shadow: 0 4px 36.5px rgba(0, 0, 0, 0.05);
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+
+    .right-yummy {
+        position: absolute;
+        bottom: 400px;
+        right: 0;
+        font-size: 224px;
+        font-weight: bolder;
+        letter-spacing: -10px;
+        color: rgba(255, 255, 255, 0.6);
+        text-shadow: 0 4px 36.5px rgba(0, 0, 0, 0.05);
+    }
+
+
+
+    .content-main {
+        display: flex;
+        max-width: 1280px;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+        padding-bottom: 200px;
+
+
+        h3 {
+            font-size: 40px;
+            font-weight: 800;
+            color: #282222;
+        }
+
+        h5 {
+            font-size: 16px;
+            color: #706D6B;
+            white-space: pre-line;
+        }
+
     }
 }
