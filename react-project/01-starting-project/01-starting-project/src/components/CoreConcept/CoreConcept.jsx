@@ -1,4 +1,5 @@
-import { CORE_CONCEPTS } from '../data.js';
+
+import './CoreConcept.css';
 
 export default function CoreConcept({ image, title, description }) {
     return (
