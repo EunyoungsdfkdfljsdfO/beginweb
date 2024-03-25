@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.profile {
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.23);
+  -moz-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.23);
+  border-radius: 20px;
+}
+
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
