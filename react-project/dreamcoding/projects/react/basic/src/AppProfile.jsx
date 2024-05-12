@@ -4,6 +4,7 @@ import Profile from './components/Profile';
 
 function AppProfile() {
   const handleClick = (event) => {
+    console.log(event);
     alert('버튼이 클릭되었습니다!');
   }
 	return(
